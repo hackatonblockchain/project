@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hackatonblockchain/project/issues"
   },
-  "homepage": "https://github.com/hackatonblockchain/project#readme"
+  "homepage": "https://github.com/hackatonblockchain/project#readme",
+  "devDependencies": {
+    "solc": "^0.8.15"
+  }
 }
