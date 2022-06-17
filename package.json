@@ -1,0 +1,20 @@
+{
+  "name": "hackatonblockchain",
+  "version": "1.0.0",
+  "description": "test commit",
+  "main": "index.js",
+  "scripts": {
+    "backend": "node backend/main.js",
+    "frontend": "echo \"Front end script is not set up\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackatonblockchain/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackatonblockchain/project/issues"
+  },
+  "homepage": "https://github.com/hackatonblockchain/project#readme"
+}
