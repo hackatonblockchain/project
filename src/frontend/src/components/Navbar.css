@@ -1,0 +1,43 @@
+
+.Nav{
+    width: 100%;
+    background-color: #DBDDFB;
+    display: flex;
+    height: 71px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.NavItem{
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+}
+.NavItems{
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+}
+.NavLinksItems{
+    font-size: 14px;
+    color: #4A54EB;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.NavInput{
+    background-color: #FFF;
+    padding: 0 0 0 75px;
+    border: 0;
+    width: 605px;
+    border-radius: 4%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #ADADB5;
+    font-size: 12px;
+}
+.NavInput:focus{
+    outline: none;
+}
