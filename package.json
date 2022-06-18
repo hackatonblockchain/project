@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "test commit",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "backend": "node backend/main.js",
+    "backend": "node src/backend/main.js",
     "frontend": "echo \"Front end script is not set up\""
   },
   "repository": {
