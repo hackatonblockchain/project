@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "backend": "node src/backend/main.js",
+    "backend": "nodemon src/backend/main.js",
     "frontend": "echo \"Front end script is not set up\""
   },
   "repository": {
@@ -22,12 +22,21 @@
     "@nomiclabs/hardhat-ethers": "^2.0.6",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "chai": "^4.3.6",
-    "ethereum-waffle": "^3.4.4",
-    "ethers": "^5.6.8",
     "hardhat": "^2.9.9",
+    "nodemon": "^2.0.16",
     "solc": "^0.8.15"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.6.0"
+    "@openzeppelin/contracts": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^5.6.8",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
   }
 }
