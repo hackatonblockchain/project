@@ -7,7 +7,7 @@ import { DatePicker } from 'antd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <DatePicker />,
+  
   <React.StrictMode>
     <BrowserRouter>
     <Routes>

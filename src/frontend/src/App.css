@@ -56,10 +56,45 @@ body {
   font-weight: 700;
   font-size: 24px;
 
-
 }
+.profilePage{
+  padding-top: 10%;
+}
+.profile{
+  width: 680px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.profileText{
+  text-align: left;
+  margin-left: 5%;
 
-
+  width: 400px;
+}
+.nickname{
+  font-size: 36px;
+  font-weight: 700;
+}
+.date{
+  font-size: 16px;
+  color: #989898;
+}
+.buttonEdit{
+  background-color: #DBDDFB;
+  font-size: 14px;
+  color: #4A54EB;
+  padding: 12px 22px;
+  font-weight: 700;
+  border: 1px solid #DBDDFB;
+  border-radius: 25px;
+  margin: 0 0 3% 5%;
+}
+.properties{
+  text-align: left;
+  font-weight: 700;
+  font-size: 24px;
+}
 @media(max-width: 2800px){
   .container{
     max-width: 1560px;
